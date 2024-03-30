@@ -33,22 +33,25 @@ main: #简历主要内容，
   - title: 武汉理工大学
     # duration: "2011年x月 - 2015年"
     sub: 2019年9月 - 2023年6月
-    detail: 理学院（信息与计算科学）
+    detail: 理学院（信息与计算科学） Rank：5%
   - title: 西安交通大学
     # duration: Aug 2007 - Jun 2011
     sub: 2023年9月 - 2026年
     detail: 公共卫生学院（流行病与卫生统计学）
 
 - type: skills
-  # name: "技能"
+  name: "技能"
   content:
-  - title: 技能
+  - title: 技术栈和编程语言
     items: #itmems 可以小块的方式显示
-    - 汉语
-    - 语言2
-    - 语言3
-  - title: Skill Group
-    summary: Consectetur, Adipiscing, Elit
+    - Pytorch
+    - Linux
+    - 机器学习
+    - 统计分析
+    - 数据可视化
+    - 编程语言：python（精通）MATLAB（熟练）R C++
+  - title: 个人技能总结
+    summary: 1. 作为队长带领团队参加过多次
 
 - type: experience
   name: 经验
@@ -60,7 +63,7 @@ main: #简历主要内容，
     - 标签
     summary: 职务或者工作总结(自动折叠)
     detail: 同时包含 summary和detail在Chrome，Safari(包括IOS)，Android和新版Firefox等会自动折叠，不支持折叠的浏览器和展开后表现一致
-    # open: open
+    open: open
     #可以设置open默认展开
   - title: Job Title
     sub: Your 2nd, Inc.  
