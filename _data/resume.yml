@@ -51,42 +51,68 @@ main: #简历主要内容，
     - 数据可视化
     - 编程语言：python（精通）MATLAB（熟练）R C++
   - title: 个人技能总结
-    summary: 1. 作为队长带领团队参加过多次
+    summary: 1. 主导、参与过多次竞赛项目，有丰富的分析编程和抗压能力
+    
+    2. 掌握多种机器学习方法的数学原理和编程实现，如：SVM、SVD、XGBoost、决策树、聚类算法等
+
+    3. 具备数据分析、大数据开发、计算机视觉的项目经验和能力
+
+    4. 工作认真负责、勇于担当、沟通和团队协作能力强；创新能力强，能够发现项目中的问题并给出解决方案
 
 - type: experience
-  name: 经验
+  name: 项目经历
   content:
-  - title: 职位
-    sub: 某某公司
-    duration: "xxxx年xx月 - yyyy年yy月"
+  - title: 全国大学生创新训练项目
+    sub: 2021年
+    # duration: "xxxx年xx月 - yyyy年yy月"
     tags:
-    - 标签
-    summary: 职务或者工作总结(自动折叠)
-    detail: 同时包含 summary和detail在Chrome，Safari(包括IOS)，Android和新版Firefox等会自动折叠，不支持折叠的浏览器和展开后表现一致
+    - Linux
+    - Pytorch
+    - 计算机视觉
+    summary: 项目负责人
+    detail: 作为项目负责人参与了“基于胶囊网络的人脸识别与分类算法研究”项目的立项、文献分析、模型搭建和实施，独立编写代码，进，熟悉行实验分析。由于项目使用租赁服务器运行，掌握了Linux系统的操作方法和服务器的环境配置以及VScode远程开发pytorch深度学习框架。并完成论文成果撰写。
     open: open
     #可以设置open默认展开
-  - title: Job Title
-    sub: Your 2nd, Inc.  
-    duration: Apr 2013 - Mar 2016
+  - title: 全国大学生数学建模竞赛
+    sub: 2022年
+    # duration: Apr 2013 - Mar 2016
     tags: 
-    - tagname
-    summary: Summary your job or work. (Collapse)
-    detail: Details can be collapsed in Chrome Safari, Firefox, Opera and so on. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    - 数据分析与可视化
+    - Python
+    - 数学建模
+    - 机器学习
+    summary: 省级一等奖
+    detail: 在团队中负责建模和编程任务，在此过程中，熟练掌握了多种数据分析和统计方法的数学原理和编程实现，在人工智能和数据挖掘方面有一定基础。
+- title: 美国大学生数学建模竞赛
+    sub: 2022年
+    # duration: Apr 2013 - Mar 2016
+    tags: 
+    - 数据分析与可视化
+    - Python
+    - 数学建模
+    - 组合优化
+    summary: Meritorious Winner（一等奖）
+    detail: 对于黄金和比特币的价格，建立了LSTM注意力预测模型。预先对数据进行了清理，并在投资初期设定了观察期。建立具有注意力机制的LSTM预测模型，并使用前20天的价格数据预测当天的黄金和比特币价格。最后，得到了的价格预测精度黄金和比特币分别为95.14%和91.47%。接下来，为了获得基于已知黄金和比特币价格的交易策略，建立Markowitz-Bollinger网格交易模型。使用粒子群优化（PSO）在一个周期内对它们进行优化，总收益为72745美元。
+  - title: 华为杯研究生数学建模竞赛
+    sub: 2023年
+    # duration: Apr 2013 - Mar 2016
+    tags: 
+    - 综合评价
+    - Python
+    - 数学建模
+    summary: 二等奖
+    detail: 于非线性零一整数规划的最优交叉分发模型。去极值平均计分、取标准分数平均分计分和混合高斯-交叉加权计分三种评审方案。对于新方案，首先使用高斯混合模型对专家评分的概率分布进行建模，估计出每位专家的混合高斯模型参数。然后通过计算每位专家打分的分位数值，反映作品在专家评审作品集合的相对位置，并基于不同专家间的交集面积来分配权重。
+  - title: HIV可视化平台搭建
+    sub: 2024年
+    # duration: Apr 2013 - Mar 2016
+    tags: 
+    - 可视化平台
+    - Python
+    - 机器学习
+    summary: 开发中，[平台链接](https://mainpy-duodihxjmsquuahfynk9ud.streamlit.app/)
+    detail: 基于预警模型和传播动力学模型，评价不同诊防新模式对未来十年艾滋病疫情趋势的影响、估算经济负担，开发“基于检测筛查即干预” 的艾滋病诊防可视化智能应用平台
 
-- type: projects
-  name: Projects
-  content:
-  - title: 项目名称
-    duration: xxxx年xx月 - yyyy年yy月
-    detail: 项目和工作介绍，项目总结.
-    sub: 维护者
-  - title: Project Name
-    summary: Projects' introduction or summary
-    detail:
-      md: _data/demo.md
-    sub: Creator and maintainer.
-   #可继续添加更多内容
-
+    
 #others 其他简略内容(列表)
 others: #其他列表显示
 - type: others #ID可以为空
