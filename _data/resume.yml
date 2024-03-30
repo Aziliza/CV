@@ -121,8 +121,8 @@ main: #简历主要内容，
     - 可视化平台
     - Python
     - 机器学习
-    summary: 开发中，[平台链接](https://mainpy-duodihxjmsquuahfynk9ud.streamlit.app/)
-    detail: 基于预警模型和传播动力学模型，评价不同诊防新模式对未来十年艾滋病疫情趋势的影响、估算经济负担，开发“基于检测筛查即干预” 的艾滋病诊防可视化智能应用平台
+    summary: 开发中
+    detail: 基于预警模型和传播动力学模型，评价不同诊防新模式对未来十年艾滋病疫情趋势的影响、估算经济负担，开发“基于检测筛查即干预” 的艾滋病诊防可视化智能应用平台，平台链接：https://mainpy-duodihxjmsquuahfynk9ud.streamlit.app/
     open: open
     
 #others 其他简略内容(列表)
