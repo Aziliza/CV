@@ -4,7 +4,7 @@
 title: "个人简历"
 lang: "zh" #语言设置 zh表示中文 en 表示英语
 name: "王乾宇"
-jobtitle: "求职意向" #可空不显示
+# jobtitle: "求职意向" #可空不显示
 photo: "assets/img/photo.jpg" #照片可空，不显示
 
 #联系方式
@@ -51,7 +51,7 @@ main: #简历主要内容，
     - 数据可视化
     - 编程语言：python（精通）MATLAB（熟练）R C++
   - title: 个人技能总结
-    detail:
+    detail: |
       1. 主导、参与过多次竞赛项目，有丰富的分析编程和抗压能力
       2. 掌握多种机器学习方法的数学原理和编程实现，如：SVM、SVD、XGBoost、决策树、聚类算法等
       3. 具备数据分析、大数据开发、计算机视觉的项目经验和能力
@@ -130,18 +130,10 @@ others: #其他列表显示
 - type: others #ID可以为空
   name: '其他'
   content: #选择需要的格式
-  - 单行文字
-  - title: "加粗:"
-    text: "列表项二"
-  - title: "兴趣:"
-    items: #单行列表
-    - 睡觉
-    - 吃饭
-    - coding
-  - title: 列表
-    list:
-    - 第一项
-    - 第二项
+  - 全国大学生数学竞赛三等奖
+  - 校二等奖学金
+  - 院三好学生
+  - CET-4（610） CET-6 （470）
 #- type: 
 #  name: '其他'
 #  content: #选择需要的格式
